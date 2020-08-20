@@ -1,0 +1,309 @@
+.background {
+  display: none;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* background: pink; */
+}
+
+img {
+  filter: brightness(.85);
+}
+
+.container .account {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 8.5rem;
+  width: 90%;
+  height: 100vh;
+}
+
+.container .account h2 {
+  color: #333333;
+  font-size: 2rem;
+  line-height: 30px;
+  /* text-align: center; */
+}
+
+.container .account span {
+  font-size: 1.5rem;
+  color: #8f8f8f;
+  line-height: 24px;
+  width: 85%;
+}
+
+.container .account form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .account form div.react-datepicker-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-date {
+  border: solid 1px #ff5863;
+}
+
+.container .account form div.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .account form div label {
+  display: flex;
+  /* align-items: flex-start; */
+  font-size: 1.5rem;
+  margin-top: 23px;
+  color: #8f8f8f
+}
+
+.container .account form div input {
+  /* position: relative; */
+  align-items: center;
+  width: 98%;
+  height: 5.8rem;
+  border-radius: 3px;
+  margin-top: 7px;
+  padding: 14px;
+  font-size: 1.5rem;
+  border: solid 1px #e6e6e6;
+}
+
+/* .container .account form div.password {
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+} */
+
+.container .account form div i {
+  /* position: relative;
+  left: -15%; */
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: #cccccc;
+}
+
+.container .account form .terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 26px;
+  width: 98%;
+  border-radius: 3px;
+  border: solid 1px;
+  border-color: #e6e6e6;
+  padding: 10px;
+}
+
+.container .account form .terms span {
+  font-size: 1.5rem;
+  line-height: 20px;
+  ;
+}
+
+a {
+  text-decoration: none;
+  color: #4c8afe;
+}
+
+.errorCheckbox {
+  display: flex;
+}
+
+.container .account form .terms input[type="checkbox"] {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 12px;
+  margin-top: 0;
+  border-radius: 4px;
+}
+
+.container .account form .terms input[type="checkbox"]:before {
+  display: flex;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+}
+
+.container .account form .terms input[type="checkbox"]:checked:before {
+  content: "";
+  border-radius: 4px;
+  display: block;
+  position: absolute;
+  width: 2.1rem;
+  height: 2.1rem;
+  background-color: #1E80EF;
+  margin-right: 12px;
+}
+
+input[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  width: 0.5rem;
+  height: 1rem;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0.3rem;
+  left: 0.8rem;
+}
+
+.container .account form button.submit {
+  display: flex;
+  width: 98%;
+  height: 56px;
+  border: none;
+  align-items: center;
+  margin-top: 35px;
+  background-color: #4c8afe;
+  border-radius: 3px;
+  transition: background-colo 0.2s
+}
+
+.container .account form button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: red;
+}
+
+.container .account form button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.container .account footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  border-top: solid 1px #e6e6e6;
+  width: 98%;
+}
+
+.container .account footer p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  line-height: 18px;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+svg {
+  /* background: green; */
+  margin: 0;
+}
+
+.container2 {
+  width: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  bottom: 0px;
+  color: #eee;
+}
+
+div.quote {
+  width: 369px;
+  height: 90px;
+  font-size: 20px;
+  text-align: right;
+  line-height: 30px;
+}
+
+div.text-image {
+  display: none;
+}
+
+div.name {
+  width: 211px;
+  height: 48px;
+  margin-top: 8px;
+  font-size: 16px;
+  text-align: right;
+  line-height: 24px;
+}
+
+@media (min-width: 1000px) {
+  div {
+    width: auto;
+  }
+  .background {
+    display: flex;
+    position: relative;
+    display: flex;
+    height: 847px;
+    width: 552px;
+    margin: 0;
+  }
+  .background img.background {}
+  .container {
+    display: flex;
+    height: auto;
+    align-items: center;
+    overflow: initial;
+  }
+  .container .account {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  div.text-image {
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  div.text-image .quote {
+    color: #fff;
+  }
+  div.text-image .name {
+    color: #fff;
+  }
+  div.text-image .name p {
+    font-weight: bold;
+  }
+}

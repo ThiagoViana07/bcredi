@@ -1,0 +1,23 @@
+header.header {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: #2ecc71;
+  padding: 2.3rem;
+}
+
+div span.header {
+  color: #fff;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 1000px) {
+  header.header {
+    width: 100%;
+    flex: 0.3;
+  }
+}
