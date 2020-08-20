@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e25887ce88a2898068b3ed8920852655",
+    "revision": "e6f697db78b34592116e0f4136cc60b5",
     "url": "/bcredi/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bcredi/static/css/2.25ff2e5b.chunk.css"
   },
   {
-    "revision": "bc9f2b3109474c3e05c2",
+    "revision": "ab78cca0055c234d3143",
     "url": "/bcredi/static/css/main.0f480621.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bcredi/static/js/2.dccfa86d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc9f2b3109474c3e05c2",
-    "url": "/bcredi/static/js/main.aef44ae6.chunk.js"
+    "revision": "ab78cca0055c234d3143",
+    "url": "/bcredi/static/js/main.f995938a.chunk.js"
   },
   {
     "revision": "1913ffa67ca3b7fe6e2c",
